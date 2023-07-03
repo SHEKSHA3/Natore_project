@@ -1,0 +1,26 @@
+@import "./absrarcts/functions";
+@import "./absrarcts/mixins";
+@import "./absrarcts/varibles";
+
+@import "./base/base";
+@import "./base/animation";
+@import "./base/typography";
+@import "./base/utilite";
+
+@import "./pages/home";
+@import "./componet/button";
+@import "./layout/header";
+@import "./layout/grid";
+@import "../sass/layout/footer";
+@import "../sass/layout/navigation";
+
+@import "./componet/composition";
+@import "./componet/feature-box";
+@import "./componet/cards";
+@import "../sass/componet/story";
+@import "../sass/componet/bg-video.scss";
+@import "../sass/componet/popup";
+
+@import "../sass/componet/form";
+;
+

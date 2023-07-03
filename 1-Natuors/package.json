@@ -1,0 +1,14 @@
+{
+  "name": "natuors",
+  "version": "1.0.0",
+  "description": "Landing page for natuors",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss sass/css.css -w"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

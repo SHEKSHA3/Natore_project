@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 75.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.7;
+  color: #755;
+  padding: 1rem;
+}

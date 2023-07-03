@@ -1,0 +1,129 @@
+.btn,
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1vw 3vw;
+    display: inline-block;
+    border-radius: 10vw;
+    position: relative;
+    transition: all 0.2s;
+    top: 0rem;
+    background: #fff;
+    //change for the button element
+    border: none;
+    cursor: pointer;
+
+}
+.btn--green{
+    background-color: $primary-color;
+}
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn-after {
+    background-color: white;
+}
+
+.btn-white {
+    background-color: $color-primary;
+    color: #777;
+}
+
+.btn-after {
+    background-color: white;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(0em);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 100px;
+    transition: all 0.4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation-name: movebtn;
+    animation-timing-function: 0.5s ease-out 0.75s;
+}
+.btn__green{
+  background-color: $color-primary!important;
+  color: rgb(20, 1, 1);
+  overflow: hidden;
+  
+}
+
+.btn-text {
+    margin-left: -19vw;
+
+    &:link,
+    &:visited {
+        font-size: 1.2rem;
+        color: $primary-color;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+        transition: all 0.2s;
+        // background: #fff;
+    }
+
+    &:hover {
+        background-color: $color-primary;
+        color: $color-black;
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 3rem 5rem rgba($color-black, 0.15);
+        transform: translateY(0);
+    }
+    .btn--green{
+        background-color: $primary-color;
+    }
+  
+}
+#green-btn {
+    background: #55c57a;
+  }
+  .btn btn--green {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1vw 3vw;
+    display: inline-block;
+    border-radius: 10vw;
+    position: relative;
+    transition: all 0.2s;
+    top: -2rem;
+    background: green($color: #000000);
+    // left: 20%;
+    // border: none;
+    // cursor: pointer;
+  }
